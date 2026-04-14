@@ -20,7 +20,7 @@ L'APK a d'abord été ouvert avec **JADX** afin d'explorer :
 Cette étape permet d'obtenir une vue claire de la structure de l'application et de repérer rapidement les éléments intéressants.
 
 > **Figure 1** — Vue de l'interface JADX avec `MainActivity` ouverte et la fonction `FlagCheck` visible.  
-> ![JADX MainActivity](image/WhatsApp_Image_2026-04-08_at_14_37_23__4_.jpeg)
+> ![JADX MainActivity](image/1.jpeg)
 
 ---
 
@@ -79,7 +79,7 @@ on trouve l'entrée suivante :
 ```
 
 > **Figure 2** — Fichier `strings.xml` avec la ressource `Flag` mise en évidence.  
-> ![strings.xml](image/WhatsApp_Image_2026-04-08_at_14_37_24__5_.jpeg)
+> ![strings.xml](image/2.jpeg)
 
 Cette chaîne correspond à la valeur référencée par `R.string.Flag` dans la fonction `FlagCheck()`.
 
@@ -90,7 +90,7 @@ public static int Flag = 0x7f0f0000;
 ```
 
 > **Figure 3** — Fichier `R.java` généré par JADX, montrant l'identifiant de la ressource `Flag`.  
-> ![R.java](WhatsApp_Image_2026-04-08_at_14_37_23__3_.jpeg)
+> ![R.java](imge/5.jpeg)
 
 Cela valide que la donnée comparée provient bien des ressources Android et non d'une valeur construite dynamiquement ailleurs dans le code.
 
@@ -105,7 +105,7 @@ From Base64
 ```
 
 > **Figure 4** — Décodage Base64 dans CyberChef, avec le flag en sortie.  
-> ![CyberChef décodage](image/WhatsApp_Image_2026-04-08_at_14_37_24__4_.jpeg)
+> ![CyberChef décodage](image/4.jpeg)
 
 Le résultat obtenu est :
 
@@ -132,7 +132,7 @@ Congrats you got the flag!!!
 ```
 
 > **Figure 5** — Confirmation visuelle dans l'émulateur Android après saisie du flag.  
-> ![Confirmation Android](image/WhatsApp_Image_2026-04-08_at_14_37_24__3_.jpeg)
+> ![Confirmation Android](image/3.jpeg)
 
 Cela confirme que la valeur décodée correspond bien au flag attendu par l'application.
 
