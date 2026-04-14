@@ -20,7 +20,7 @@ L'APK a d'abord été ouvert avec **JADX** afin d'explorer :
 Cette étape permet d'obtenir une vue claire de la structure de l'application et de repérer rapidement les éléments intéressants.
 
 > **Figure 1** — Vue de l'interface JADX avec `MainActivity` ouverte et la fonction `FlagCheck` visible.  
-> ![JADX MainActivity](image/1.jpeg)
+> ![JADX MainActivity](image/5.jpeg)
 
 ---
 
@@ -90,7 +90,7 @@ public static int Flag = 0x7f0f0000;
 ```
 
 > **Figure 3** — Fichier `R.java` généré par JADX, montrant l'identifiant de la ressource `Flag`.  
-> ![R.java](imge/5.jpeg)
+> ![R.java](imge/1.jpeg)
 
 Cela valide que la donnée comparée provient bien des ressources Android et non d'une valeur construite dynamiquement ailleurs dans le code.
 
