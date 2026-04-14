@@ -90,7 +90,7 @@ public static int Flag = 0x7f0f0000;
 ```
 
 > **Figure 3** — Fichier `R.java` généré par JADX, montrant l'identifiant de la ressource `Flag`.  
-> ![R.java](imge/1.jpeg)
+> ![R.java](image/1.jpeg)
 
 Cela valide que la donnée comparée provient bien des ressources Android et non d'une valeur construite dynamiquement ailleurs dans le code.
 
